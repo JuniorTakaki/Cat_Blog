@@ -1,0 +1,127 @@
+
+
+* {
+    background-color: rgb(173, 168, 168);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    justify-content:center;
+    display: flex;
+    color: #2e0505;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 3rem;
+}
+
+.nav li .nav-links{
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    gap: 2rem;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav .nav-links{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Dancing Script', cursive;
+}
+.nav h1{
+    font-size: 80px;
+    padding-top: 2rem;
+}
+
+.sub {
+    font-size: 30px;
+    color: darkred;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin: 1em;
+}
+
+.p {
+    font-size: 20px;
+    color:#2e0505;
+    margin: 1em;
+}
+
+span{
+    font-weight: bold;
+    color: darkred;
+}
+/*  # server para estilizar ID */
+#cat {
+    width: 30em;
+    height: 30em;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+#welcome{
+    padding-bottom: 3rem;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+
+}
+
+footer{
+    background-color: #2e0505;
+}
+
+.fcontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+    list-style-type: none;
+    
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:transparent;
+    margin: 10px;
+    border-radius:50%
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: darkred;
+}
+
+.fnav{
+    margin: 30px;
+}
+
+.fnav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.fnav ul li a{
+    color: darkred;
+    margin: 20px;
+    text-decoration: none;
+    font-size:1.5em;
+    font-weight: bold
+    ;
+}
+
+.fnav ul li a:hover{
+    opacity: 0.3;
+}
+
+
+
